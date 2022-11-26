@@ -23454,16 +23454,35 @@ div:not(.table-compact) > .table .th .dropdown-container .dropdown-list {
   border-width: 0;
 }
 
-.tr.red .td {
+.demo2.widget-datagrid .tr.red .td {
   background-color: red;
 }
-
-.tr.blue .td {
+.demo2.widget-datagrid .tr.blue .td {
   background-color: blue;
 }
-
-.tr.yellow .td {
+.demo2.widget-datagrid .tr.yellow .td {
   background-color: yellow;
+}
+.demo2.widget-datagrid .tr.rebeccapurple .td {
+  background-color: rebeccapurple;
+}
+
+.demo1.mx-grid {
+  /* tr:has(> td[title="rebeccapurple"]) td {
+    background-color: rebeccapurple !important;
+  } */
+}
+.demo1.mx-grid tr:hover {
+  background-color: #f0f1f2 !important;
+}
+.demo1.mx-grid tr:has(> td[title=rebeccapurple]) {
+  background-color: rebeccapurple;
+}
+.demo1.mx-grid tr:has(> td[title=red]) {
+  background-color: red;
+}
+.demo1.mx-grid tr:has(> td[title=blue]) {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */

@@ -1,11 +1,39 @@
 @import "custom-variables";
 
-.tr.red .td {
-  background-color: red;
+.demo2.widget-datagrid {
+  .tr.red .td {
+    background-color: red;
+  }
+  .tr.blue .td {
+    background-color: blue;
+  }
+  .tr.yellow .td {
+    background-color: yellow;
+  }
+  .tr.rebeccapurple .td {
+    background-color: rebeccapurple;
+  }
 }
-.tr.blue .td {
-  background-color: blue;
-}
-.tr.yellow .td {
-  background-color: yellow;
+
+.demo1.mx-grid {
+  tr:hover {
+    background-color: #f0f1f2 !important;
+  }
+  //option1
+  tr:has(> td[title="rebeccapurple"]) {
+    background-color: rebeccapurple;
+  }
+
+  tr:has(> td[title="red"]) {
+    background-color: red;
+  }
+
+  tr:has(> td[title="blue"]) {
+    background-color: blue;
+  }
+
+  // option2
+  /* tr:has(> td[title="rebeccapurple"]) td {
+  background-color: rebeccapurple !important;
+} */
 }
