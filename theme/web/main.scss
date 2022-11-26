@@ -1,1 +1,11 @@
 @import "custom-variables";
+
+.tr.red .td {
+  background-color: red;
+}
+.tr.blue .td {
+  background-color: blue;
+}
+.tr.yellow .td {
+  background-color: yellow;
+}

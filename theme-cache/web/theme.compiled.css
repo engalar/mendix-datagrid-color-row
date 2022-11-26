@@ -23454,4 +23454,16 @@ div:not(.table-compact) > .table .th .dropdown-container .dropdown-list {
   border-width: 0;
 }
 
+.tr.red .td {
+  background-color: red;
+}
+
+.tr.blue .td {
+  background-color: blue;
+}
+
+.tr.yellow .td {
+  background-color: yellow;
+}
+
 /*# sourceMappingURL=theme.compiled.css.map */
